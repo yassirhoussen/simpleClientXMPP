@@ -1,0 +1,158 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/jabberbackground"
+    tools:context=".Connection">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="@string/connect_mesg"
+        android:textSize="37dip"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:id="@+id/welcome"
+        android:layout_gravity="center"
+       />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/OrangeRed"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/welcome"
+        android:layout_gravity="center"
+        android:id="@+id/view" />
+
+    <GridLayout
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:useDefaultMargins="true"
+        android:alignmentMode="alignBounds"
+        android:columnOrderPreserved="false"
+        android:columnCount="10"
+        android:rowCount="10"
+        android:id="@+id/gridLayout"
+        android:layout_below="@+id/view"
+        android:layout_marginTop="10dp"
+        android:layout_alignRight="@+id/view"
+        android:layout_alignEnd="@+id/view">
+
+        <TextView
+            android:text="Host"
+            android:textStyle="normal"
+            android:textSize="20dp"
+            android:layout_gravity="left"
+            android:textColor="@color/Black"
+            android:layout_row="2"
+            android:layout_column="0" />
+
+        <EditText
+            android:id="@+id/hostEdit"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="xxx.jabber.com"
+            android:layout_gravity="right"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:layout_columnSpan="9" />
+
+        <TextView
+            android:text="Port"
+            android:textStyle="normal"
+            android:textSize="20dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="30px"
+            android:layout_column="0"
+            android:textColor="@color/Black"
+            android:layout_row="3" />
+
+        <EditText
+            android:ems="10"
+            android:id="@+id/portEdit"
+            android:inputType="number"
+            android:hint="5222"
+            android:layout_row="3"
+            android:layout_gravity="right"
+            android:layout_column="1"
+            android:layout_columnSpan="9" />
+
+        <TextView
+            android:text="Service"
+            android:textStyle="normal"
+            android:textSize="20dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="30px"
+            android:layout_column="0"
+            android:textColor="@color/Black"
+            android:layout_row="4" />
+
+        <EditText
+            android:ems="10"
+            android:id="@+id/serviceEdit"
+            android:inputType="text"
+            android:hint="xxx.jabber.com"
+            android:layout_row="4"
+            android:layout_gravity="right"
+            android:layout_column="1"
+            android:layout_columnSpan="9" />
+
+        <TextView
+            android:text="Username"
+            android:textStyle="normal"
+            android:textSize="20dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="30px"
+            android:layout_column="0"
+            android:textColor="@color/Black"
+            android:layout_row="5" />
+
+        <EditText
+            android:ems="10"
+            android:id="@+id/usernameEdit"
+            android:inputType="text"
+            android:hint="johndoe"
+            android:layout_row="5"
+            android:layout_gravity="right"
+            android:layout_column="1"
+            android:layout_columnSpan="9" />
+
+        <TextView
+            android:text="Password"
+            android:textStyle="normal"
+            android:textSize="20dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="30px"
+            android:layout_column="0"
+            android:textColor="@color/Black"
+            android:layout_row="6" />
+
+        <EditText
+            android:ems="10"
+            android:id="@+id/passwordEdit"
+            android:inputType="textPassword"
+            android:hint="johndoe"
+            android:layout_row="6"
+            android:layout_gravity="right"
+            android:layout_column="1"
+            android:layout_columnSpan="9" />
+    </GridLayout>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/gridLayout"
+        android:text="Connection"
+        android:background="@color/OrangeRed"
+        android:id="@+id/connect"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>

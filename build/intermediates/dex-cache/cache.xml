@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/lyos2210/AndroidStudioProjects/SimpleClientXMPP/app/build/intermediates/pre-dexed/debug/asmack-android-8-4.0.1-de50708172348a18edd0e86265ee04ff73476ce1.jar"
+        jar="/Users/lyos2210/AndroidStudioProjects/SimpleClientXMPP/app/libs/asmack-android-8-4.0.1.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="78bd507425a1a56b1fa256f104cde85e7771a03a"/>
+    <item
+        dex="/Users/lyos2210/AndroidStudioProjects/SimpleClientXMPP/app/build/intermediates/pre-dexed/debug/support-v13-19.1.0-7a37eb298375791ca5eb3dba1c8462f9a60c78f4.jar"
+        jar="/Users/lyos2210/Downloads/adt-bundle-mac-x86_64-20130219/sdk/extras/android/m2repository/com/android/support/support-v13/19.1.0/support-v13-19.1.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="6b852a232f642c75a7fdfc7212b841b8c8f8959c"/>
+    <item
+        dex="/Users/lyos2210/AndroidStudioProjects/SimpleClientXMPP/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-c917667c28145ce15df8988d9f1b536748b5d8ea.jar"
+        jar="/Users/lyos2210/Downloads/adt-bundle-mac-x86_64-20130219/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+
+</pre-dex-items>
